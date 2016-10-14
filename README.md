@@ -8,7 +8,7 @@ Simply embed an iframe and add the url to share, and optionally the message, a p
 ```
  <iframe 
       src="https://robinlinus.github.io/share-the-love/share-the-love/
-        #msg=Share the Love! Simple Shar Buttons
+        #msg=Share the Love! Easy to use share Buttons
         &url=http://robinlinus.com
         &paypal=robin@capira.de
         &twitter=robin_linus" 
