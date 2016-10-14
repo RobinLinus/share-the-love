@@ -1,2 +1,23 @@
-# share-the-love
-Easy to use share buttons
+# Share the Love!
+Easy to use share buttons.
+
+
+## Usage 
+
+Simply embed an iframe and add the url to share, and optionally the message, a paypal email for donations, and your twitter handle: 
+```
+ <iframe 
+      src="https://robinlinus.github.io/share-the-love/share-the-love/
+        #msg=Share the Love! Simple Shar Buttons
+        &url=http://robinlinus.com
+        &paypal=robin@capira.de
+        &twitter=robin_linus" 
+      height="50" 
+      width="100%" 
+      frameborder="0"
+ ></iframe>
+```
+Without linebreaks:
+``` 
+<iframe src="https://robinlinus.github.io/share-the-love/share-the-love/#msg=Share the Love! Simple Shar Buttons&url=http://robinlinus.com&paypal=robin@capira.de&twitter=robin_linus" height="50" width="100%" frameborder="0"></iframe>
+```
