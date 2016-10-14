@@ -1,6 +1,7 @@
 # Share the Love!
 Easy to use share buttons.
 
+[Demo](https://robinlinus.github.io/share-the-love/share-the-love/demo)
 
 ## Usage 
 
