@@ -19,5 +19,5 @@ Simply embed an iframe and add the url to share, and optionally the message, a p
 ```
 Without linebreaks:
 ``` 
-<iframe src="https://robinlinus.github.io/share-the-love/share-the-love/#msg=Share the Love! Simple Shar Buttons&url=http://robinlinus.com&paypal=robin@capira.de&twitter=robin_linus" height="50" width="100%" frameborder="0"></iframe>
+<iframe src="https://robinlinus.github.io/share-the-love/share-the-love/#msg=Share the Love! Simple Share Buttons&url=http://robinlinus.com&paypal=robin@capira.de&twitter=robin_linus" height="50" width="100%" frameborder="0"></iframe>
 ```
