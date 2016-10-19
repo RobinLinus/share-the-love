@@ -300,6 +300,10 @@
         $('bitcoin').remove();
     }
 
+    if (!params.github) {
+        $('github').remove();
+    }
+
     var shareUrls = {
         'facebook': 'https://www.facebook.com/sharer/sharer.php?u={{url}}',
         'twitter': 'http://twitter.com/intent/tweet?text={{msg}}:%20{{url}}&via={{twitter}}',
@@ -311,7 +315,8 @@
         'reddit': 'http://www.reddit.com/submit?url={{url}}&title={{msg}}',
         'instagram': 'instagram://user?username=',
         'paypal': 'https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business={{paypal}}&lc=US&item_name=Donation&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest',
-        'bitcoin':'https://netzpolitik.org/wp-content/plugins/shariff/bitcoin.php?bitcoinaddress={{bitcoin}}'
+        'bitcoin':'https://netzpolitik.org/wp-content/plugins/shariff/bitcoin.php?bitcoinaddress={{bitcoin}}',
+        'github':'https://github.com/{{github}}'
     }
 
 
@@ -322,7 +327,7 @@
             if (a = $(network)) {
                 var url = shareUrls[network];
                 for (var param in params) {
-                    url = url.replace(new RegExp('{{' + param + '}}', 'g'), encodeURIComponent(params[param]));
+                    url = url.replace(new RegExp('{{' + param + '}}', 'g'), param === 'github' ? params[param] : encodeURIComponent(params[param]));
                 }
                 a.href = url;
             }
