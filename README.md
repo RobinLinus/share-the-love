@@ -12,7 +12,9 @@ Simply embed an iframe and add the url to share, and optionally the message, a p
         #msg=Share the Love! Easy to use share Buttons
         &url=http://robinlinus.com
         &paypal=robin@capira.de
-        &twitter=robin_linus" 
+        &twitter=robin_linus
+        &bitcoin=176s9TkKmAFdL5gP36u9VZym9zPVVEcFo9
+        &github=robinlinus/share-the-love" 
       height="50" 
       width="100%" 
       frameborder="0"
@@ -20,5 +22,5 @@ Simply embed an iframe and add the url to share, and optionally the message, a p
 ```
 Without linebreaks:
 ``` 
-<iframe src="https://robinlinus.github.io/share-the-love/#msg=Share the Love! Simple Share Buttons&url=http://robinlinus.com&paypal=robin@capira.de&twitter=robin_linus" height="50" width="100%" frameborder="0"></iframe>
+<iframe src="https://robinlinus.github.io/share-the-love/#msg=Share the Love! Simple Share Buttons&url=http://robinlinus.com&paypal=robin@capira.de&twitter=robin_linus&bitcoin=176s9TkKmAFdL5gP36u9VZym9zPVVEcFo9&github=robinlinus/share-the-love" height="50" width="100%" frameborder="0"></iframe>
 ```
